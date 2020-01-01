@@ -1,0 +1,277 @@
+@font-face {
+	src: url(../fonts/social_font.otf);
+	font-family: social;
+}
+
+body {
+	background-color: #000;
+	overflow-x: hidden;
+}
+
+footer {
+	padding: 0vh 5vw;
+	background-color: #000;
+	color: #eee;
+	height: 70vh;
+	border-top: solid 1px #111;
+	font-size: 12px;
+	text-align: center;
+}
+
+footer h6 {
+	font-size: 12px;
+}
+
+footer div.col-lg-3 {
+	text-align: left;
+	margin-top: 10vh;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.copyright {
+	font-size: 10px;
+	color: gray;
+}
+
+.newsletterInput, .newsletterButton {
+	height: 30px;
+	border: solid 1px #555;
+}
+
+.newsletterInput {
+	width: 60%;
+}
+
+.newsletterButton {
+	width: 30%;
+}
+
+.footerContactIco {
+	font-size: 15px;
+	margin-top: 10px;
+	color: #eee;
+}
+
+.socialBox, .socialBox2 {
+	font-family: social;
+	font-size: 140px;
+}
+
+.socialBox2 {
+	font-size: 50px;
+}
+
+.socialBox > a, .socialBox2 > a {
+	color: rgba(255, 255, 255, 0.95);
+}
+
+.socialBox > a:hover, .socialBox2 > a:hover {
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+}
+
+.contentW {
+	color: white;
+	text-align: center;
+	padding-top: 40vh;
+}
+.contentE {
+	color: white;
+	text-align: center;
+	padding-top: 25vh;
+}
+
+.contentE {
+	color: white;
+	text-align: left;
+}
+
+.spolecznosci {
+	width: 70px;
+}
+
+#map {
+	margin-top: 20px;
+    height: 300px;
+    width: 80%;
+}
+
+div.kontakt li {
+	color: lightgray;
+}
+
+.logo {
+	width: 100px;
+}
+
+.lower {
+	background-color: rgba(5,5,5, 1) !important;
+}
+
+.logoStart {
+	margin-top: 16vh;
+	width: 320px;
+}
+
+li {
+	color: white;
+}
+
+.artykul, .artykul2, .artykul3, .artykul4, .mainContent {
+	width: 100%;
+	height: 100vh;
+	min-height: 600px;
+}	
+
+.artykul4 {
+	min-height: 800px;
+}
+
+.ofertaphoto {
+	height: 50vh;
+}
+
+.ofertaText1, .ofertaText2 {
+	color: white;
+	text-align: right;
+	padding: 30px;
+}
+
+.ofertaText2 {
+	text-align: left;
+	color: black;
+}
+
+.ofertaText1 h2, .ofertaText2 h2 {
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.oferta {
+	background-color: #eee;
+	height: 50vh;
+	width: 100%;
+}
+
+.artykul {
+	background: url(../img/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+.artykul2 {
+	background: url(../img/bg-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+.artykul3 {
+	background: url(../img/bg-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+.artykul4 {
+	background: url(../img/bg-4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+.mainContent {
+	background: url(../img/bg-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+
+}	
+
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: rgba(0,0,0,0);
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand {
+  color: #eee;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #ffad32;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #fff;
+}
+
+#mainNav .navbar-nav > li > a {
+  font-size: 11px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px;
+}
+
+
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color: #ccc;
+}
+
+
+
+@media (max-width: 992px) {
+	.artykul4 {
+		min-height: 1100px;
+	}
+	
+	#map {
+		width: 100%;
+	}
+	
+	.artykul3 {
+		min-height: 1100px;
+	}
+	
+	nav {
+		background-color: black;
+	}
+}
+
+@media (min-width: 992px) {
+  
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: fade(white, 70%);
+  }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+}
