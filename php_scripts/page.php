@@ -7,8 +7,8 @@
 				$this -> title = "Start";
 				$this -> link = "start";
 			} else {
-				$this -> title = $name;
-				$this -> link = $name;
+				$this -> title = strtolower($name);
+				$this -> link = strtolower($name);
 			}
 		}
 		
@@ -17,7 +17,7 @@
 		}
 		
 		public function getPageLink() {
-			return $this -> link;  
+			return $this -> link;
 		}
 	}
 ?>
